@@ -1,0 +1,25 @@
+Name        : recode
+Version     : 3.7
+Release     : 39.el7.centos
+Architecture: x86_64
+Install Date: Thu 19 Jan 2017 07:06:50 PM PST
+Group       : Applications/File
+Size        : 2198794
+License     : GPLv2+
+Signature   : (none)
+Source RPM  : recode-3.7-39.el7.centos.src.rpm
+Build Date  : Thu 19 Jan 2017 06:58:17 PM PST
+Build Host  : 991198670.acs.edcc.edu
+Relocations : (not relocatable)
+Packager    : BK (BK@strangesoftware.com)
+Vendor      : Strange Software
+URL         : http://recode.progiciels-bpi.ca/
+Summary     : Conversion between character sets and surfaces
+Description :
+Made for CS126
+The `recode' converts files between character sets and usages.
+It recognises or produces nearly 150 different character sets
+and is able to transliterate files between almost any pair. When exact
+transliteration are not possible, it may get rid of the offending
+characters or fall back on approximations.  Most RFC 1345 character sets
+are supported.

@@ -1,0 +1,7 @@
+[Unit]
+Description=check if a usb mounting path exists, and calls a shell script
+After=mediaMount.mount
+
+[Service]
+ExecStart=/root/labs/lab2_service.sh
+ 

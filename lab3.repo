@@ -1,0 +1,7 @@
+
+[test-repo]
+gpgcheck=0
+humanname=CentOS-$releasever - EdCC
+baseurl=http://991198670.acs.edcc.edu/repo/
+name=CentOS-$releasever - Test
+

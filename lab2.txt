@@ -1,0 +1,53 @@
+Objective: Create a unit file that copies all the files from a mountpoint using rsync as soon as the device is mounted.
+
+    The copy process must be started based on the device being mounted
+    The device doesn't have to be unmounted when done. 
+
+
+What to Submit:
+
+    The Unit file
+    Any scripts you may create
+
+-----------------------------------------------------------------------
+CHECK: systemctl status -?
+
+pseudocode:
+
+1) Event - A usb is plugged in.
+
+if [ -e /dev/xv?? ] then
+
+2) Mount it on a directory?
+   
+3) Copy all the files from a mountpoint using rync
+
+rsync -?? /media/usb/* /root/
+
+
+------------------------------------------------------------------
+1) need mount unit file
+2) service unit After=/mount/path
+3) calls a shell script that copies stuff
+
+1) MOUNT UNIT FILE
+[Unit]
+Description=notice whether a usb is mounted at a particular path
+
+
+[Service]
+ExecStart=path_to_executable
+Type=
+PIDFile=path_to_pidfile
+
+[Install]
+WantedBy=default.target
+
+2) SERVICE UNIT FILE
+[Unit]
+Description=check if a usb mounting path exists, and calls a shell script
+After=mediaMount.mount
+
+[Service]
+ExecStart=/root/lab2_service.sh
+

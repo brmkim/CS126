@@ -1,0 +1,16 @@
+Loaded plugins: fastestmirror, langpacks
+Transaction ID : 168
+Begin time     : Thu Jan 19 19:06:49 2017
+Begin rpmdb    : 1145:ed49fafb29be869c6ef47629a21f0a564d5152ea
+End time       :            19:06:50 2017 (1 seconds)
+End rpmdb      : 1146:2e99e574e4cc2da1aa9b03818cd68f393c152be8
+User           : root <root>
+Return-Code    : Success
+Command Line   : install recode-3.7-39.el7.centos.x86_64.rpm
+Transaction performed with:
+    Installed     rpm-4.11.3-21.el7.x86_64                      @base
+    Installed     yum-3.4.3-132.el7.centos.0.1.noarch           @base
+    Installed     yum-plugin-fastestmirror-1.1.31-34.el7.noarch @base
+Packages Altered:
+    Install recode-3.7-39.el7.centos.x86_64 @/recode-3.7-39.el7.centos.x86_64
+history info

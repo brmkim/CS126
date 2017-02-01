@@ -1,0 +1,21 @@
+# 1) mount a backup drive (assume that the backup drive is in /dev/xvdf)
+# 2) backs up /home to the drive 
+# 3) unmount the drive
+# The task would run everyday at 8:00pm
+
+00 20 * * * root /root/labs/lab1_script.sh
+
+#
+# Contents of /root/labs/lab1_script.sh that this file will call and run
+#
+#!/bin/bash
+#
+# Mount a backup drive
+#mount -t auto /dev/xvdf /mnt/
+#
+# Backs up files in the directory /home to the backup drive
+#rsync -ra /home/ /dev/xvdf
+#
+# Unmount the drive
+#umount /mnt/
+

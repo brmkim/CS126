@@ -1,0 +1,2 @@
+  LV       #Str Stripe #PV Devices                     Layout    
+  lvstream    2  4.00k   2 /dev/xvdd1(0),/dev/xvde1(0) striped   
