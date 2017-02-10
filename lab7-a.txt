@@ -1,0 +1,41 @@
+991198670.acs.edcc.edu:
+----------
+          ID: user
+    Function: user.present
+        Name: boram
+      Result: True
+     Comment: User boram is present and up to date
+     Started: 16:04:16.160066
+    Duration: 35.995 ms
+     Changes:   
+----------
+          ID: htop
+    Function: pkg.installed
+      Result: True
+     Comment: Package htop is already installed.
+     Started: 16:04:16.613987
+    Duration: 1635.763 ms
+     Changes:   
+----------
+          ID: /etc/crypttab
+    Function: file.managed
+      Result: True
+     Comment: File /etc/crypttab is in the correct state
+     Started: 16:04:18.253204
+    Duration: 3.287 ms
+     Changes:   
+----------
+          ID: hostname
+    Function: network.system
+      Result: True
+     Comment: Global network settings are up to date.
+     Started: 16:04:18.257163
+    Duration: 6.601 ms
+     Changes:   
+
+Summary
+------------
+Succeeded: 4
+Failed:    0
+------------
+Total states run:     4
