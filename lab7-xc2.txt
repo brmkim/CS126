@@ -1,0 +1,16 @@
+991198670.acs.edcc.edu:
+----------
+          ID: vim-enhanced
+    Function: pkg.installed
+      Result: True
+     Comment: Package vim-enhanced is already installed.
+     Started: 16:49:02.581601
+    Duration: 1693.543 ms
+     Changes:   
+
+Summary
+------------
+Succeeded: 1
+Failed:    0
+------------
+Total states run:     1

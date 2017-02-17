@@ -4,3 +4,6 @@ base:
         - htop
         - crypttab
         - hostname
+        - vim
+        - iptables
+        - selinux

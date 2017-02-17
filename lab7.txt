@@ -1,0 +1,17 @@
+base:
+    '991198670.acs.edcc.edu':
+        - apache 
+        - htop
+    user.present:
+        - name: boram
+        - uid: 1000
+        - gid: 1000
+        - groups:
+           - wheel
+
+/etc/crypttab:
+    file.managed:
+        - source: salt://crypttab
+        - mode: 644
+        - user: root
+        - group: root
