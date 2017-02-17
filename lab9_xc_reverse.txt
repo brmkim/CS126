@@ -1,0 +1,19 @@
+
+; <<>> DiG 9.9.4-RedHat-9.9.4-38.el7_3.2 <<>> @192.168.0.131 -x 192.168.0.131
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47901
+;; flags: qr aa rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;131.0.168.192.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+131.0.168.192.in-addr.arpa. 0	IN	PTR	cs126.com.
+
+;; Query time: 11 msec
+;; SERVER: 192.168.0.131#53(192.168.0.131)
+;; WHEN: Thu Feb 16 20:29:04 PST 2017
+;; MSG SIZE  rcvd: 67
+
