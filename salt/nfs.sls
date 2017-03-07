@@ -1,0 +1,3 @@
+nfs-utils:
+    pkg:
+        - installed

@@ -5,7 +5,7 @@ iptables:
 
 /etc/sysconfig/iptables:
     file.managed:
-        - source: /root/labs/lab9a.txt
+        - source: /root/CS126/lab9a.txt
         - mode: 644
         - user: root
         - group: root

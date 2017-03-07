@@ -1,0 +1,3 @@
+/home/bob/share *(rw,no_root_squash)
+/home/public *(rw,all_squash)
+/home/private 192.168.0.131(rw,no_root_squash)

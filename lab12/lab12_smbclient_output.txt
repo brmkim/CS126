@@ -1,0 +1,14 @@
+Anonymous login successful
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	ourshare        Disk      our share
+	smbshare        Disk      smbshare for lab12
+	IPC$            IPC       IPC Service (Samba Server Version 4.4.4)
+Anonymous login successful
+
+	Server               Comment
+	---------            -------
+
+	Workgroup            Master
+	---------            -------

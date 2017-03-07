@@ -1,0 +1,4 @@
+/home/private 	192.168.0.131
+/home/bob/share
+		<world>
+/home/public  	<world>
