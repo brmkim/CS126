@@ -7,7 +7,7 @@ VirtualHost configuration:
                  alias www.cs126.com
          port 80 namevhost example.com (/etc/httpd/conf.d/example.com.conf:1)
                  alias www.example.com
-*:443                  cs126.com (/etc/httpd/conf.d/ssl.conf:56)
+*:443                  991198670.acs.edcc.edu (/etc/httpd/conf.d/ssl.conf:56)
 ServerRoot: "/etc/httpd"
 Main DocumentRoot: "/var/www/html"
 Main ErrorLog: "/etc/httpd/logs/error_log"
