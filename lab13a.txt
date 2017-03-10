@@ -1,0 +1,28 @@
+VirtualHost configuration:
+*:80                   is a NameVirtualHost
+         default server cs126.com (/etc/httpd/conf.d/cs126.com.conf:1)
+         port 80 namevhost cs126.com (/etc/httpd/conf.d/cs126.com.conf:1)
+                 alias www.cs126.com
+         port 80 namevhost example.com (/etc/httpd/conf.d/example.com.conf:1)
+                 alias www.example.com
+*:443                  cs126.com (/etc/httpd/conf.d/ssl.conf:56)
+ServerRoot: "/etc/httpd"
+Main DocumentRoot: "/var/www/html"
+Main ErrorLog: "/etc/httpd/logs/error_log"
+Mutex proxy-balancer-shm: using_defaults
+Mutex rewrite-map: using_defaults
+Mutex authdigest-client: using_defaults
+Mutex fcgid-proctbl: using_defaults
+Mutex ssl-stapling: using_defaults
+Mutex proxy: using_defaults
+Mutex authn-socache: using_defaults
+Mutex ssl-cache: using_defaults
+Mutex default: dir="/run/httpd/" mechanism=default 
+Mutex mpm-accept: using_defaults
+Mutex fcgid-pipe: using_defaults
+Mutex authdigest-opaque: using_defaults
+PidFile: "/run/httpd/httpd.pid"
+Define: DUMP_VHOSTS
+Define: DUMP_RUN_CFG
+User: name="apache" id=48
+Group: name="apache" id=48
